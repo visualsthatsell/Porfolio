@@ -217,7 +217,7 @@ footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}footer ul
 
 <dialog id="lb" aria-label="Project video"><button class="btn o close" id="x">Close</button><div class="player" id="pl"></div><h3 id="lt" style="margin-top:16px"></h3><p id="ld"></p></dialog>
 
-<script id="state" type="application/json">{"text": {}, "hidden": [], "config": {"aboutPhoto": "media/photo-2.png", "profilePhoto": "media/photo-1.jpg", "formEndpoint": "/", "fallbackEmail": "visualsthatsell60@gmail.com", "contacts": {"Email": "mailto:visualsthatsell60@gmail.com", "Instagram": "https://www.instagram.com/Visuals_That_Sell/", "Facebook": "", "LinkedIn": "", "WhatsApp": ""}}, "works": [{"t": "Body Perfume CGI Ad", "c": "Perfume CGI Ads", "d": "Concept: a serum bottle reveal with liquid light and slow reflections.", "cls": "t1", "video": "media/video-1.mp4"}, {"t": "Beverage Commercial", "c": "Beverage Product Commercials", "d": "Concept: a luxury cream jar floating through a deep purple studio.", "cls": "t2", "video": "media/video-2.mp4"}, {"t": "Creator-Style Ad", "c": "UGC-Style Ads", "d": "Concept: a hook-led, creator-style product demo for social feeds.", "cls": "t3", "video": "media/video-3.mp4"}, {"t": "Product Animation", "c": "Beauty Product Animations", "d": "Concept: perfume bottle animation with glass reflections and yellow accent light.", "cls": "t4", "video": "media/video-4.mp4"}]}</script>
+<script id="state" type="application/json">{"text": {}, "hidden": [], "config": {"aboutPhoto": "photo-2.png", "profilePhoto": "photo-1.jpg", "formEndpoint": "/", "fallbackEmail": "visualsthatsell60@gmail.com", "contacts": {"Email": "mailto:visualsthatsell60@gmail.com", "Instagram": "https://www.instagram.com/Visuals_That_Sell/", "Facebook": "", "LinkedIn": "", "WhatsApp": ""}}, "works": [{"t": "Body Perfume CGI Ad", "c": "Perfume CGI Ads", "d": "Concept: a serum bottle reveal with liquid light and slow reflections.", "cls": "t1", "video": "media/video-1.mp4"}, {"t": "Beverage Commercial", "c": "Beverage Product Commercials", "d": "Concept: a luxury cream jar floating through a deep purple studio.", "cls": "t2", "video": "media/video-2.mp4"}, {"t": "Creator-Style Ad", "c": "UGC-Style Ads", "d": "Concept: a hook-led, creator-style product demo for social feeds.", "cls": "t3", "video": "media/video-3.mp4"}, {"t": "Product Animation", "c": "Beauty Product Animations", "d": "Concept: perfume bottle animation with glass reflections and yellow accent light.", "cls": "t4", "video": "media/video-4.mp4"}]}</script>
 <script>
 /* ===== EDIT ME: your details and videos ===== */
 var CONFIG={
@@ -228,10 +228,10 @@ var CONFIG={
   contacts:{Email:"",Instagram:"",Facebook:"",LinkedIn:"",WhatsApp:""} /* full URLs or mailto: / https://wa.me/... */
 };
 var WORKS=[
- {t:"Skincare CGI Ad",c:"Skincare CGI Ads",d:"Concept: a serum bottle reveal with liquid light and slow reflections.",cls:"t1",video:""},
- {t:"Cosmetics Commercial",c:"Cosmetics Product Commercials",d:"Concept: a luxury cream jar floating through a deep purple studio.",cls:"t2",video:""},
- {t:"Creator-Style Ad",c:"UGC-Style Ads",d:"Concept: a hook-led, creator-style product demo for social feeds.",cls:"t3",video:""},
- {t:"Product Animation",c:"Beauty Product Animations",d:"Concept: perfume bottle animation with glass reflections and yellow accent light.",cls:"t4",video:""}
+ {t:"Skincare CGI Ad",c:"Skincare CGI Ads",d:"Concept: a serum bottle reveal with liquid light and slow reflections.",cls:"v1",video:"video-1.mp4"},
+ {t:"Cosmetics Commercial",c:"Cosmetics Product Commercials",d:"Concept: a luxury cream jar floating through a deep purple studio.",cls:"v2",video:"video-2.mp4"},
+ {t:"Creator-Style Ad",c:"UGC-Style Ads",d:"Concept: a hook-led, creator-style product demo for social feeds.",cls:"v3",video:"video-3.mp4"},
+ {t:"Product Animation",c:"Beauty Product Animations",d:"Concept: perfume bottle animation with glass reflections and yellow accent light.",cls:"v4",video:"video-4.mp4"}
 ];
 /* ===== end of editable area ===== */
 try{var _S=JSON.parse(document.getElementById("state").textContent||"{}");if(_S.config)for(var _k in _S.config)CONFIG[_k]=_S.config[_k];if(_S.works)WORKS=_S.works}catch(e){}
